@@ -1,0 +1,72 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px dashed #000;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 50%;
+  padding: 15px;
+  border: 3px dashed rgb(0, 0, 0);
+  /* box-shadow: 2px 2px 2px 2px rgb(127, 127, 127); */
+}
+
+.wrapper .title {
+  text-align: center;
+}
+
+.wrapper .post {
+  list-style-type: none;
+}
+
+.wrapper .post .post-item {
+  font-size: 20px;
+  line-height: 30px
+}
+
+.wrapper .post .post-item .date {
+  color: rgb(180, 180, 180);
+}
+
+/* .wrapper .post {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.wrapper .post .post-item {
+  border: 2px solid #000;
+  background-color: rgba(96, 24, 211, 0.664);
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: fff;
+  font-weight: bold;
+  text-align: center;
+} */
